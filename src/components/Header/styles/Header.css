@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "ArgentumSans-Light";
+  src: url("../fonts/ArgentumSans-Light.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Regular";
+  src: url("../fonts/ArgentumSans-Regular.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Medium";
+  src: url("../fonts/ArgentumSans-Medium.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Bold";
+  src: url("../fonts/ArgentumSans-Bold.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Black";
+  src: url("../fonts/ArgentumSans-Black.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ArgentumSans-Light";
+  text-decoration: none;
+  list-style: none;
+}
+
+.container-header {
+  max-width: 100vw;
+  height: 55vh;
+  background-image: url(../../../assets/bg-header.png);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container-header h1 {
+  width: 30rem;
+  margin-left: 5%;
+  font-size: 3rem;
+  font-family: "ArgentumSans-Bold";
+  color: #005bd5;
+}
+.container-header select {
+  margin-top: 15px;
+  margin-left: 5%;
+  width: 22rem;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  border-style: none;
+  font-size: 1rem;
+  font-family: "ArgentumSans-Light";
+}
+.container-header select::-moz-placeholder {
+  padding: 5px;
+}
+.container-header select::placeholder {
+  padding: 5px;
+}
+.container-header button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 2.5rem;
+  font-family: "ArgentumSans-Bold";
+  border-radius: 20px;
+  letter-spacing: 4px;
+  background-color: #005bd5;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  margin: 1.5% 0 0 5%;
+}
+.container-header button:hover {
+  background-color: #002e6b;
+  cursor: pointer;
+  transition: all 0.3s;
+}/*# sourceMappingURL=Header.css.map */

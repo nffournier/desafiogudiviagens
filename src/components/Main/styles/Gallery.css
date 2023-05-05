@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "ArgentumSans-Light";
+  src: url("../fonts/ArgentumSans-Light.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Regular";
+  src: url("../fonts/ArgentumSans-Regular.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Medium";
+  src: url("../fonts/ArgentumSans-Medium.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Bold";
+  src: url("../fonts/ArgentumSans-Bold.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Black";
+  src: url("../fonts/ArgentumSans-Black.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ArgentumSans-Light";
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "ArgentumSans-Light";
+  src: url("../fonts/ArgentumSans-Light.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Regular";
+  src: url("../fonts/ArgentumSans-Regular.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Medium";
+  src: url("../fonts/ArgentumSans-Medium.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Bold";
+  src: url("../fonts/ArgentumSans-Bold.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Black";
+  src: url("../fonts/ArgentumSans-Black.ttf");
+}
+.container {
+  max-width: 99vw;
+}
+.container .box {
+  position: relative;
+}
+.container .box img {
+  width: 100%;
+  z-index: 0;
+}
+.container .box a {
+  z-index: 10;
+  width: 180px;
+  position: absolute;
+  top: 250px;
+  left: 220px;
+  width: 180px;
+  background: rgba(53, 49, 49, 0.5);
+  box-shadow: 0 8px 40px 0 rgba(63, 63, 73, 0.37);
+  -webkit-backdrop-filter: blur(13.5px);
+          backdrop-filter: blur(13.5px);
+  border: solid white 2px;
+  border-radius: 20px;
+  padding: 8px;
+  color: white;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "ArgentumSans-Medium";
+}/*# sourceMappingURL=Gallery.css.map */

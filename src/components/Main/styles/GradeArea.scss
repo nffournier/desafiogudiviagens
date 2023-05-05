@@ -1,0 +1,130 @@
+@import "../../../styles/main.scss";
+@import "../../../styles/fonts";
+
+.containerGrade {
+
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 512px);
+  grid-template-areas:
+    "image1  text1"
+    "text2  image2"
+    "image3 text3";
+
+  .imageFirst {
+    height: 512px;
+    grid-area: image1;
+    background-image: url(../images/image-clima-perfeito.png);
+    background-size: cover;
+    background-position: center center;
+  }
+  .gradientGrade {
+    @include GradeBlue;
+    grid-area: text1;
+    .textGrade {
+      @include ConfigGrade;
+      color: $text-white;
+      .subtitleGrade {
+        @include Subtitle;
+      }
+      h2 {
+        @include TitleGrade;
+        color: $text-white;
+      }
+      p {
+        @include TextGrade;
+      }
+      .buttomAgendar {
+        @include buttonAgendarWhite;
+        text-transform: uppercase;
+        color: $text-white;
+        letter-spacing: 3px;
+
+        &:hover {
+          background-color: $text-white;
+          color: $text-blue;
+          font-family: "ArgentumSans-Black";
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .imageSecond {
+    grid-area: image2;
+    background-image: url(../images/image-amigos.png);
+    background-size: cover;
+    background-position: center center;
+  }
+  .whiteGrade {
+    @include GradeWhite;
+
+    .textGrade {
+      @include ConfigGrade;
+      color: $text-blue;
+
+      .subtitleGrade {
+        @include Subtitle;
+        color: $text-blue;
+      }
+      h2 {
+        @include TitleGrade;
+      }
+      p {
+        @include TextGrade;
+      }
+      .buttomAgendar {
+        @include buttonAgendarBlue;
+        text-transform: uppercase;
+        color: $text-blue;
+        letter-spacing: 3px;
+
+        &:hover {
+          background-color: $text-blue;
+          color: $text-white;
+          font-family: "ArgentumSans-Black";
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .imageThird {
+    height: 512px;
+    grid-area: image3;
+    background-image: url(../images/image-mar-amigos.png);
+    background-size: cover;
+    background-position: center center;
+  }
+  #gradientBlue {
+    @include GradeBlue;
+    grid-area: text3;
+    .textGrade {
+      @include ConfigGrade;
+      color: $text-white;
+      .subtitleGrade {
+        @include Subtitle;
+      }
+      h2 {
+        @include TitleGrade;
+        color: $text-white;
+      }
+      p {
+        @include TextGrade;
+      }
+      .buttomAgendar {
+        @include buttonAgendarWhite;
+        text-transform: uppercase;
+        color: $text-white;
+        letter-spacing: 3px;
+
+        &:hover {
+          background-color: $text-white;
+          color: $text-blue;
+          font-family: "ArgentumSans-Black";
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

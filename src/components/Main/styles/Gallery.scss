@@ -1,0 +1,19 @@
+@import "../../../styles/main.scss";
+@import "../../../styles/fonts";
+@import "./mixin";
+
+.container {
+  max-width: 99vw;
+  .box {
+    position: relative;
+
+    img {
+      width: 100%;
+      z-index: 0;
+    }
+    a {
+      @include buttonTransparent;
+      font-family: "ArgentumSans-Medium";
+    }
+  }
+}

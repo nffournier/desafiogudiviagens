@@ -1,0 +1,99 @@
+@import "../../../styles/main.scss";
+@import "../../../styles/fonts";
+
+.menu-footer {
+  max-width: 99vw;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "sobre contato beneficios lugares curiosidades";
+  .sobre {
+    grid-area: sobre;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+    img {
+      width: 80px;
+      margin-bottom: 20px;
+    }
+    ul {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      a {
+        color: $text-blue;
+        font-family: "ArgentumSans-Medium";
+      }
+    }
+  }
+  .contato {
+    grid-area: contato;
+    p {
+      color: $text-blue;
+      font-family: "ArgentumSans-Bold";
+      margin-bottom: 15px;
+    }
+    ul {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      a {
+        color: $text-blue;
+        font-family: "ArgentumSans-Medium";
+      }
+    }
+  }
+  .beneficios {
+    grid-area: beneficios;
+    p {
+      color: $text-blue;
+      font-family: "ArgentumSans-Bold";
+      margin-bottom: 15px;
+    }
+    ul {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      a {
+        color: $text-blue;
+        font-family: "ArgentumSans-Medium";
+      }
+    }
+  }
+  .lugares {
+    grid-area: lugares;
+    p {
+      color: $text-blue;
+      font-family: "ArgentumSans-Bold";
+      margin-bottom: 15px;
+    }
+    ul {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      a {
+        color: $text-blue;
+        font-family: "ArgentumSans-Medium";
+      }
+    }
+  }
+  .curiosidades {
+    grid-area: curiosidades;
+    p {
+      color: $text-blue;
+      font-family: "ArgentumSans-Bold";
+      margin-bottom: 15px;
+    }
+    ul {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      a {
+        color: $text-blue;
+        font-family: "ArgentumSans-Medium";
+      }
+    }
+  }
+}

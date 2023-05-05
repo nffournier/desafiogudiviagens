@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "ArgentumSans-Light";
+  src: url("../fonts/ArgentumSans-Light.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Regular";
+  src: url("../fonts/ArgentumSans-Regular.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Medium";
+  src: url("../fonts/ArgentumSans-Medium.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Bold";
+  src: url("../fonts/ArgentumSans-Bold.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Black";
+  src: url("../fonts/ArgentumSans-Black.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ArgentumSans-Light";
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "ArgentumSans-Light";
+  src: url("../fonts/ArgentumSans-Light.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Regular";
+  src: url("../fonts/ArgentumSans-Regular.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Medium";
+  src: url("../fonts/ArgentumSans-Medium.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Bold";
+  src: url("../fonts/ArgentumSans-Bold.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Black";
+  src: url("../fonts/ArgentumSans-Black.ttf");
+}
+.menu-footer {
+  max-width: 99vw;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "sobre contato beneficios lugares curiosidades";
+}
+.menu-footer .sobre {
+  grid-area: sobre;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.menu-footer .sobre img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+.menu-footer .sobre ul {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.menu-footer .sobre ul a {
+  color: #005bd5;
+  font-family: "ArgentumSans-Medium";
+}
+.menu-footer .contato {
+  grid-area: contato;
+}
+.menu-footer .contato p {
+  color: #005bd5;
+  font-family: "ArgentumSans-Bold";
+  margin-bottom: 15px;
+}
+.menu-footer .contato ul {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.menu-footer .contato ul a {
+  color: #005bd5;
+  font-family: "ArgentumSans-Medium";
+}
+.menu-footer .beneficios {
+  grid-area: beneficios;
+}
+.menu-footer .beneficios p {
+  color: #005bd5;
+  font-family: "ArgentumSans-Bold";
+  margin-bottom: 15px;
+}
+.menu-footer .beneficios ul {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.menu-footer .beneficios ul a {
+  color: #005bd5;
+  font-family: "ArgentumSans-Medium";
+}
+.menu-footer .lugares {
+  grid-area: lugares;
+}
+.menu-footer .lugares p {
+  color: #005bd5;
+  font-family: "ArgentumSans-Bold";
+  margin-bottom: 15px;
+}
+.menu-footer .lugares ul {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.menu-footer .lugares ul a {
+  color: #005bd5;
+  font-family: "ArgentumSans-Medium";
+}
+.menu-footer .curiosidades {
+  grid-area: curiosidades;
+}
+.menu-footer .curiosidades p {
+  color: #005bd5;
+  font-family: "ArgentumSans-Bold";
+  margin-bottom: 15px;
+}
+.menu-footer .curiosidades ul {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.menu-footer .curiosidades ul a {
+  color: #005bd5;
+  font-family: "ArgentumSans-Medium";
+}/*# sourceMappingURL=MenuFooter.css.map */

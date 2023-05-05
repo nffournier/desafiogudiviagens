@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "ArgentumSans-Light";
+  src: url("../fonts/ArgentumSans-Light.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Regular";
+  src: url("../fonts/ArgentumSans-Regular.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Medium";
+  src: url("../fonts/ArgentumSans-Medium.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Bold";
+  src: url("../fonts/ArgentumSans-Bold.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Black";
+  src: url("../fonts/ArgentumSans-Black.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ArgentumSans-Light";
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: "ArgentumSans-Light";
+  src: url("../fonts/ArgentumSans-Light.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Regular";
+  src: url("../fonts/ArgentumSans-Regular.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Medium";
+  src: url("../fonts/ArgentumSans-Medium.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Bold";
+  src: url("../fonts/ArgentumSans-Bold.ttf");
+}
+@font-face {
+  font-family: "ArgentumSans-Black";
+  src: url("../fonts/ArgentumSans-Black.ttf");
+}
+.containerGrade {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 512px);
+  grid-template-areas: "image1  text1" "text2  image2" "image3 text3";
+}
+.containerGrade .imageFirst {
+  height: 512px;
+  grid-area: image1;
+  background-image: url(../images/image-clima-perfeito.png);
+  background-size: cover;
+  background-position: center center;
+}
+.containerGrade .gradientGrade {
+  height: 512px;
+  background-image: linear-gradient(180deg, #005bd5, #002e6b);
+  grid-area: text1;
+}
+.containerGrade .gradientGrade .textGrade {
+  width: 70%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #ffffff;
+}
+.containerGrade .gradientGrade .textGrade .subtitleGrade {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #ffffff;
+}
+.containerGrade .gradientGrade .textGrade .subtitleGrade p {
+  font-family: "ArgentumSans-Regular";
+  letter-spacing: 0.3rem;
+  font-size: 0.9rem;
+}
+.containerGrade .gradientGrade .textGrade h2 {
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
+  font-family: "ArgentumSans-Black";
+  color: #ffffff;
+}
+.containerGrade .gradientGrade .textGrade p {
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  line-height: 1.6rem;
+}
+.containerGrade .gradientGrade .textGrade .buttomAgendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 2rem;
+  font-family: "ArgentumSans-Medium";
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color: rgba(0, 46, 107, 0);
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+.containerGrade .gradientGrade .textGrade .buttomAgendar:hover {
+  background-color: #ffffff;
+  color: #005bd5;
+  font-family: "ArgentumSans-Black";
+  cursor: pointer;
+}
+.containerGrade .imageSecond {
+  grid-area: image2;
+  background-image: url(../images/image-amigos.png);
+  background-size: cover;
+  background-position: center center;
+}
+.containerGrade .whiteGrade {
+  height: 512px;
+  background-color: #ffffff;
+}
+.containerGrade .whiteGrade .textGrade {
+  width: 70%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #005bd5;
+}
+.containerGrade .whiteGrade .textGrade .subtitleGrade {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #ffffff;
+  color: #005bd5;
+}
+.containerGrade .whiteGrade .textGrade .subtitleGrade p {
+  font-family: "ArgentumSans-Regular";
+  letter-spacing: 0.3rem;
+  font-size: 0.9rem;
+}
+.containerGrade .whiteGrade .textGrade h2 {
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
+  font-family: "ArgentumSans-Black";
+}
+.containerGrade .whiteGrade .textGrade p {
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  line-height: 1.6rem;
+}
+.containerGrade .whiteGrade .textGrade .buttomAgendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 2rem;
+  font-family: "ArgentumSans-Medium";
+  border: solid 1px #005bd5;
+  border-radius: 15px;
+  background-color: rgba(0, 46, 107, 0);
+  text-transform: uppercase;
+  color: #005bd5;
+  letter-spacing: 3px;
+}
+.containerGrade .whiteGrade .textGrade .buttomAgendar:hover {
+  background-color: #005bd5;
+  color: #ffffff;
+  font-family: "ArgentumSans-Black";
+  cursor: pointer;
+}
+.containerGrade .imageThird {
+  height: 512px;
+  grid-area: image3;
+  background-image: url(../images/image-mar-amigos.png);
+  background-size: cover;
+  background-position: center center;
+}
+.containerGrade #gradientBlue {
+  height: 512px;
+  background-image: linear-gradient(180deg, #005bd5, #002e6b);
+  grid-area: text3;
+}
+.containerGrade #gradientBlue .textGrade {
+  width: 70%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-top: 10%;
+  margin-left: 5%;
+  color: #ffffff;
+}
+.containerGrade #gradientBlue .textGrade .subtitleGrade {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #ffffff;
+}
+.containerGrade #gradientBlue .textGrade .subtitleGrade p {
+  font-family: "ArgentumSans-Regular";
+  letter-spacing: 0.3rem;
+  font-size: 0.9rem;
+}
+.containerGrade #gradientBlue .textGrade h2 {
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
+  font-family: "ArgentumSans-Black";
+  color: #ffffff;
+}
+.containerGrade #gradientBlue .textGrade p {
+  font-size: 1.2rem;
+  letter-spacing: 0.02rem;
+  line-height: 1.6rem;
+}
+.containerGrade #gradientBlue .textGrade .buttomAgendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 2rem;
+  font-family: "ArgentumSans-Medium";
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color: rgba(0, 46, 107, 0);
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+.containerGrade #gradientBlue .textGrade .buttomAgendar:hover {
+  background-color: #ffffff;
+  color: #005bd5;
+  font-family: "ArgentumSans-Black";
+  cursor: pointer;
+}/*# sourceMappingURL=GradeArea.css.map */

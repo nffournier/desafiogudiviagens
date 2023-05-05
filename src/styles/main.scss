@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./fonts";
+@import "./mixins";
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ArgentumSans-Light";
+  text-decoration: none;
+  list-style: none;
+}
